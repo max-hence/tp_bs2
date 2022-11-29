@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+
+<!-- node property keys -->
+
+  <key id="biopaxType" for="node" attr.name="biopaxType" attr.type="string" />
+  <key id="color" for="node" attr.name="color" attr.type="string" />
+
+  <key id="description" for="node" attr.name="description" attr.type="string" />
+  <key id="input" for="node" attr.name="input" attr.type="long" />
+
+  <key id="name" for="node" attr.name="name" attr.type="string" />
+  <key id="pk" for="node" attr.name="pk" attr.type="string" />
+  <key id="shape" for="node" attr.name="shape" attr.type="string" />
+
+
+ <key id="spaimCase" for="node" attr.name="spaimCase" attr.type="string" />
+ <key id="patternTag" for="node" attr.name="patternTag" attr.type="string" />
+
+ <key id="provider" for="node" attr.name="provider" attr.type="string" />
+ <key id="evidence" for="node" attr.name="evidence" attr.type="string" />
+ <key id="alias" for="node" attr.name="alias" attr.type="string" />
+
+ <key id="uniprot" for="node" attr.name="uniprot" attr.type="string" />
+ <key id="uri" for="node" attr.name="uri" attr.type="string" />
+ <key id="organism" for="node" attr.name="organism" attr.type="string" />
+
+ <key id="hgnc" for="node" attr.name="hgnc" attr.type="string" />
+ <key id="chebi" for="node" attr.name="chebi" attr.type="string" />
+ <key id="generic" for="node" attr.name="generic" attr.type="string" />
+
+
+<!-- edge property keys -->
+
+  <key id="interaction" for="edge" attr.name="interaction" attr.type="string" />
+  <key id="spaim" for="edge" attr.name="spaim" attr.type="string" />
+  <key id="debug" for="edge" attr.name="debug" attr.type="string" />
+
+
+  <graph id="PathwayCommons12.reactome.BIOPAX" edgedefault="directed" parse.nodeids="free" parse.edgeids="free" parse.order="nodesfirst">
+
+<!-- graph properties -->
+
+<!-- vertices -->
+
+
+          
+        
+        <node id="1">
+
+           <data key="biopaxType">Complex</data>
+           <data key="name">NRXNs:NLGN dimer:PSD-95:GKAP1-4:SHANK1,2,3</data>
+           <data key="alias">NRXNs:NLGN dimer:PSD-95:GKAP1-4:SHANK1,2,3</data>	       
+           <data key="provider">Reactome</data>
+           <data key="uri">http://pathwaycommons.org/pc12/Complex_f3398605f5742a19ee401fc7148c1d1c</data>
+           <data key="uniprot">O95886;Q9UPX8;Q8N2Q7;O14490;Q15700;Q9Y566;Q9P2S2;P58400;Q9HDB5;Q8NFZ3;P58401;Q8NFZ4;Q9ULB1;Q9Y2H0;Q9NZ94;Q9Y4C0;Q9BYB0;Q8N0W4;Q92796;P78352;Q9P1A6</data>
+           <data key="hgnc">NLGN4Y;NLGN3;NLGN1;NLGN4X;NLGN2;NRXN1;NRXN3;NRXN2;DLG2;DLG3;DLG4;DLGAP1;DLGAP3;DLGAP2;SHANK3;SHANK2;DLGAP4;SHANK1</data>
+           <data key="chebi"></data>
+           <data key="organism">Homo sapiens</data>
+           <data key="color">3</data>
+           <data key="input">0</data>
+           <data key="shape">2</data>
+           <data key="spaimCase"></data>
+           <data key="evidence"></data>
+           <data key="generic">false</data>
+        </node>
+
+            
+        
+        <node id="2">
+
+           <data key="biopaxType">Complex</data>
+           <data key="name">LBP:bacterial LPS</data>
+           <data key="alias">LBP:bacterial LPS</data>	       
+           <data key="provider">Reactome</data>
+           <data key="uri">http://pathwaycommons.org/pc12/Complex_dd56df2e524c9aa3b37c1c84a67e4b8c</data>
+           <data key="uniprot">P18428</data>
+           <data key="hgnc">LBP</data>
+           <data key="chebi"></data>
+           <data key="organism">Homo sapiens</data>
+           <data key="color">3</data>
+           <data key="input">0</data>
+           <data key="shape">2</data>
+           <data key="spaimCase"></data>
+           <data key="evidence"></data>
+           <data key="generic">false</data>
+        </node>
+
+            
+        
+        <node id="3">
+
+           <data key="biopaxType">ComplexAssembly</data>
+           <data key="name">assembly of IL3:IL3R active complex, inactive JAK2, phosphorylated Bc:p(Y427,349,350)-SHC1</data>
+           <data key="alias"></data>	       
+           <data key="provider"></data>
+           <data key="uri"></data>
+           <data key="uniprot"></data>
+           <data key="hgnc"></data>
+           <data key="chebi"></data>
+           <data key="organism"></data>
+           <data key="color">8</data>
+           <data key="input">0</data>
+           <data key="shape">6</data>
+           <data key="spaimCase">R3COMPLX</data>
+           <data key="evidence"></data>
+           <data key="generic">false</data>
+        </node>
+
+            
+        
+        <node id="4">
+
+           <data key="biopaxType">BiochemicalReaction</data>
+           <data key="name">Expression of APOA1</data>
+           <data key="alias">Expression of APOA1</data>	       
+           <data key="provider">Reactome</data>
+           <data key="uri">http://identifiers.org/reactome/R-HSA-1989754</data>
+           <data key="uniprot"></data>
+           <data key="hgnc"></data>
+           <data key="chebi"></data>
+           <data key="organism"></data>
+           <data key="color">8</data>
+           <data key="input">0</data>
+           <data key="shape">6</data>
+           <data key="spaimCase"></data>
+           <data key="evidence"></data>
+           <data key="generic">false</data>
+        </node>
+
+            
+        
+        <node id="5">
+
+           <data key="biopaxType">ComplexAssembly</data>
+           <data key="name">assembly of PLCG1:Ca2+</data>
+           <data key="alias"></data>	       
+           <data key="provider"></data>
+           <data key="uri"></data>
+           <data key="uniprot"></data>
+           <data key="hgnc"></data>
+           <data key="chebi"></data>
+           <data key="organism"></data>
+           <data key="color">8</data>
+           <data key="input">0</data>
+           <data key="shape">6</data>
+           <data key="spaimCase">R3COMPLX</data>
+           <data key="evidence"></data>
+           <data key="generic">false</data>
+        </node>
+
+            
+        
+        <node id="6">
+
+           <data key="biopaxType">BiochemicalReaction</data>
+           <data key="name">Expression of APOA5</data>
+           <data key="alias">Expression of APOA5</data>	       
+           <data key="provider">Reactome</data>
+           <data key="uri">http://identifiers.org/reactome/R-HSA-1989761</data>
+           <data key="uniprot"></data>
+           <data key="hgnc"></data>
+           <data key="chebi"></data>
+           <data key="organism"></data>
+           <data key="color">8</data>
+           <data key="input">0</data>
+           <data key="shape">6</data>
+           <data key="spaimCase"></data>
+           <data key="evidence"></data>
+           <data key="generic">false</data>
+        </node>
+
+   <\graph>
+ <\graphml>
