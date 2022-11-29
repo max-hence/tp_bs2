@@ -171,6 +171,15 @@
            <data key="evidence"></data>
            <data key="generic">false</data>
         </node>
-
-   <\graph>
- <\graphml>
+<!-- edges -->
+   <edge id=""  source="1" target="2"> </edge>
+   <edge id=""  source="1" target="3"> </edge>
+   <edge id=""  source="1" target="5"> </edge>
+   <edge id=""  source="1" target="6"> </edge>
+   <edge id=""  source="2" target="3"> </edge>
+   <edge id=""  source="2" target="4"> </edge>
+   <edge id=""  source="3" target="4"> </edge>
+   <edge id=""  source="3" target="6"> </edge>
+   <edge id=""  source="4" target="5"> </edge>
+   </graph>
+ </graphml>
