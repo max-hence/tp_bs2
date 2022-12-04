@@ -5,15 +5,19 @@ from numpy.random import random
 SIZE = 400
 V_SIZE = SIZE/20
 E_PWIDTH = V_SIZE/4
-'''g = gt.load_graph("PathwayCommons12.reactome.BIOPAX.graphml")
+
+# Load reactome graph
+g = gt.load_graph("PathwayCommons12.reactome.BIOPAX.graphml")
 pos = gt.sfdp_layout(g)
 tree = gt.min_spanning_tree(g)
 u = gt.GraphView(g, efilt=tree)
 gt.graph_draw(u, pos=pos, output="triang_min_span_tree.pdf")
 
-toy_ex = load_graph("toy_example.graphml")
+
+# Work on toy example
+toy_ex = gt.load_graph("toy_example.graphml")
 # display toy example
-graph_draw(toy_ex, vertex_text=toy_ex.vertex_properties["_graphml_vertex_id"], output_size=(800, 800), output="toy_example.pdf")
+gt.graph_draw(toy_ex, vertex_text=toy_ex.vertex_properties["_graphml_vertex_id"], output_size=(800, 800), output="toy_example.pdf")
 
 # add vertex
 v1 = toy_ex.add_vertex()
@@ -27,15 +31,14 @@ print(f"The source of e1 is : {e1.source()}", ", ", f"The target of e1 is {e1.ta
 print(f"the degree of v1 is {v1.out_degree()}")
 
 # display modified toy example
-graph_draw(toy_ex, vertex_text=toy_ex.vertex_properties["_graphml_vertex_id"], output_size=(800, 800))
+gt.graph_draw(toy_ex, vertex_text=toy_ex.vertex_properties["_graphml_vertex_id"], output_size=(800, 800))
 
 for vertex in toy_ex.vertices():
 # affiche les sommets voisins de chq sommets
-for vertex in g.vertices():
+#for vertex in g.vertices():
     print(f"Voisin du sommet {vertex} : ")
     for neighbor in vertex.all_neighbors():
         print('Sommet : ', neighbor)
-'''
 
 # génére un graphe
 g, pos = gt.triangulation(random((500, 2)) * 4, type="delaunay")
