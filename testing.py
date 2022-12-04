@@ -11,6 +11,10 @@ tree = gt.min_spanning_tree(g)
 u = gt.GraphView(g, efilt=tree)
 gt.graph_draw(u, pos=pos, output="triang_min_span_tree.pdf")
 
+toy_ex = load_graph("toy_example.graphml")
+graph_draw(toy_ex, vertex_text=toy_ex.vertex_properties["_graphml_vertex_id"], output_size=(800, 800))
+
+for vertex in toy_ex.vertices():
 # affiche les sommets voisins de chq sommets
 for vertex in g.vertices():
     print(f"Voisin du sommet {vertex} : ")
