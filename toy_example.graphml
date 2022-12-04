@@ -45,9 +45,6 @@
 
 <!-- vertices -->
 
-
-          
-        
         <node id="1">
 
            <data key="biopaxType">Complex</data>
@@ -67,8 +64,6 @@
            <data key="generic">false</data>
         </node>
 
-            
-        
         <node id="2">
 
            <data key="biopaxType">Complex</data>
