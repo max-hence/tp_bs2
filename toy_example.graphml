@@ -53,6 +53,12 @@
            <data key="uri">http://pathwaycommons.org/pc12/Complex_87a0faeef9cf42fcc244377b2662a913</data>
            <data key="uniprot">Q9UBI6;A8MTJ3;P50150;P04899;Q9UK08;Q9P2W3;Q9HAV0;P19086;P50151;P19087;P11488;P59768;P63211;P16520;P63096;P09471;P63218;P61952;P62879;O14610;O60262;P62873;P08754;P63215</data>
         </node>
+
+        <node id="8">
+           <data key="name">TEST</data>
+           <data key="uri">http://pathwaycommons.org/pc12/Complex_87a0faeef9cf42fcc244377b2662a913</data>
+           <data key="uniprot">Q9UBI6;A8MTJ3;P50150;P04899;Q9UK08;Q9P2W3;Q9HAV0;P19086;P50151;P19087;P11488;P59768;P63211;P16520;P63096;P09471;P63218;P61952;P62879;O14610;O60262;P62873;P08754;P63215</data>
+        </node>
 <!-- edges -->
    <edge id=""  source="1" target="5"> </edge>
    <edge id=""  source="2" target="3"> </edge>

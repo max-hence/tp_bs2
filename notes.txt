@@ -1,0 +1,16 @@
+Montrer le graph de toy_example en forme graphml et demander d'inerpreter le graph
+
+BiopAx : formalisme générique d'un réseau, plutôt précis pour toute sorte d'étude à différentes echelles
+Expliquer clairmeent comment comprendre comment récupérer un certain sommet dans le graph.
+Code à trous
+Calculer sur papier la betweenness avant de le faire en python
+Trouver le sommet avec le plus grd degree, recalculer les cc après avoir enlevé les HUB
+Préparer un Diapo ou Jupyter pour présentation et correction.
+
+
+Notation :
+- Timing
+- Encadrement
+- Maîtrise de l'outil et mise en contexte ave la question biologique
+- Reponse aux questions
+- Qualité du sujet : Questions faisables et adaptées
